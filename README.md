@@ -51,13 +51,13 @@
 *Continuous learning is my legacy code.*
 
 <p align="center">
-  <img src="assets/cards/scripter.png"  width="200" alt="2008 — The Scripter Kid: modding games and hacking together dev tools" />
+  <img src="assets/cards/w260/scripter.webp"  width="200" alt="2008 — The Scripter Kid: modding games and hacking together dev tools" />
   &nbsp;
-  <img src="assets/cards/qa.png"        width="200" alt="2015 — The QA Automator" />
+  <img src="assets/cards/w260/qa.webp"        width="200" alt="2015 — The QA Automator" />
   &nbsp;
-  <img src="assets/cards/architect.png" width="200" alt="2026 — The Architect" />
+  <img src="assets/cards/w260/architect.webp" width="200" alt="2026 — The Architect" />
   &nbsp;
-  <img src="assets/cards/locked.png"    width="200" alt="20XX — a locked, not-yet-unlocked character" />
+  <img src="assets/cards/w260/locked.webp"    width="200" alt="20XX — a locked, not-yet-unlocked character" />
 </p>
 
 </div>
