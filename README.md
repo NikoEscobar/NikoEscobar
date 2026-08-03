@@ -30,11 +30,7 @@
 
 <div align="center">
 
-<!-- Animated wordmark — letters spell NIKO — stickers by SunBoui (see credits above) -->
-<img src="assets/gifs/letter-n.gif" width="76" alt="N" />
-<img src="assets/gifs/letter-i.gif" width="76" alt="i" />
-<img src="assets/gifs/letter-k.gif" width="76" alt="k" />
-<img src="assets/gifs/letter-o.gif" width="76" alt="o" />
+<img src="assets/gifs/niko.gif" width="330" alt="NIKO" />
 
 <!-- Cyber-goggles hero sticker by Radicalzz Studio (see credits above) -->
 <br/>
@@ -54,25 +50,15 @@
 
 *Continuous learning is my legacy code.*
 
-<table>
-  <tr>
-    <td align="center" valign="middle">
-      <img src="assets/cards/scripter.png" width="210" alt="2008 — The Scripter Kid: modding games and hacking together dev tools" />
-    </td>
-    <td align="center" valign="middle"><h2>➜</h2></td>
-    <td align="center" valign="middle">
-      <img src="assets/cards/qa.png" width="210" alt="2015 — The QA Automator" />
-    </td>
-    <td align="center" valign="middle"><h2>➜</h2></td>
-    <td align="center" valign="middle">
-      <img src="assets/cards/architect.png" width="210" alt="2026 — The Architect" />
-    </td>
-    <td align="center" valign="middle"><h2>➜</h2></td>
-    <td align="center" valign="middle">
-      <img src="assets/cards/locked.png" width="210" alt="20XX — a locked, not-yet-unlocked character" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="assets/cards/scripter.png"  width="200" alt="2008 — The Scripter Kid: modding games and hacking together dev tools" />
+  &nbsp;
+  <img src="assets/cards/qa.png"        width="200" alt="2015 — The QA Automator" />
+  &nbsp;
+  <img src="assets/cards/architect.png" width="200" alt="2026 — The Architect" />
+  &nbsp;
+  <img src="assets/cards/locked.png"    width="200" alt="20XX — a locked, not-yet-unlocked character" />
+</p>
 
 </div>
 
