@@ -1,36 +1,71 @@
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!--  NÍKO ESCOBAR — GitHub profile README                                    -->
-<!--  All portraits & gifs are local, under /assets.                          -->
+<!--  All portraits & gifs are hosted locally, under /assets.                 -->
+<!--                                                                          -->
+<!--  STICKER / GIF CREDITS                                                   -->
+<!--  • Tech-logo stickers (js, node, vue, react, html, css, svelte, python,  -->
+<!--    android, apple, visualstudio) by devRock / Escuela DevRock            -->
+<!--        https://giphy.com/devrock                                         -->
+<!--  • Animated name letters (N · i · K · O) by SunBoui                       -->
+<!--        https://giphy.com/SunBoui                                         -->
+<!--  • Cyber-goggles / "激進 (radical)" hero sticker by Radicalzz Studio       -->
+<!--        https://giphy.com/radicalzz-studio                                -->
+<!--  • Pixel rainbow heart by Codecademy                                     -->
+<!--        https://giphy.com/Codecademy                                      -->
+<!--  • Unity engine logo by Unity Technologies                               -->
+<!--        https://giphy.com/unitytechnologies                              -->
+<!--  Sourced from Giphy and vendored locally so nothing hotlinks offsite.    -->
+<!--                                                                          -->
+<!--  WAVE FRAME  (assets/wave-top.svg, assets/wave-bottom.svg)               -->
+<!--  Self-made animated SVGs — the local, no-external-URL equivalent of the  -->
+<!--  capsule-render.vercel.app "waving" banners. SMIL animation runs inside  -->
+<!--  an <img>-referenced SVG on GitHub, so no service call is needed.        -->
+<!--  SKILL ICONS  (assets/skills/skills-*.svg)                                -->
+<!--  Static SVGs from skillicons.dev, downloaded & vendored locally,         -->
+<!--  split into category rows (languages / frameworks / cloud / tools).      -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+<!-- Local animated wave (top frame) — no external URL -->
+<img src="assets/wave-top.svg" width="100%" alt="" />
 
 <div align="center">
 
-# Níko Escobar
+<!-- Animated wordmark — letters spell NIKO — stickers by SunBoui (see credits above) -->
+<img src="assets/gifs/letter-n.gif" width="76" alt="N" />
+<img src="assets/gifs/letter-i.gif" width="76" alt="i" />
+<img src="assets/gifs/letter-k.gif" width="76" alt="k" />
+<img src="assets/gifs/letter-o.gif" width="76" alt="o" />
 
-**Full-stack developer.** *Productive long before the machines learned to autocomplete.*
+<!-- Cyber-goggles hero sticker by Radicalzz Studio (see credits above) -->
+<br/>
+<img src="assets/gifs/radical.gif" width="190" alt="Cyberpunk goggles displaying 激進 — radical" />
+
+**Full-stack developer.** *I wasn't replaced by AI. I was validated by it.*
+<!-- Built faster before AI made everyone look faster. -->
 
 </div>
 
----
+<!-- Local animated neon divider -->
+<div align="center"><img src="assets/divider.svg" width="80%" alt="" /></div>
 
 <div align="center">
 
-## Character Progression
+## Neural Upgrades
 
-*The stack changed. The haircut changed. The curiosity didn't.*
+*Continuous learning is my legacy code.*
 
 <table>
   <tr>
     <td align="center" valign="middle">
-      <img src="assets/cards/locked.png" width="210" alt="20XX — a locked, not-yet-unlocked character" />
+      <img src="assets/cards/scripter.png" width="210" alt="2008 — The Scripter Kid: modding games and hacking together dev tools" />
     </td>
     <td align="center" valign="middle"><h2>➜</h2></td>
     <td align="center" valign="middle">
-      <img src="assets/cards/locked.png" width="210" alt="20XX — a locked, not-yet-unlocked character" />
+      <img src="assets/cards/qa.png" width="210" alt="2015 — The QA Automator" />
     </td>
     <td align="center" valign="middle"><h2>➜</h2></td>
     <td align="center" valign="middle">
-      <img src="assets/cards/locked.png" width="210" alt="20XX — a locked, not-yet-unlocked character" />
+      <img src="assets/cards/architect.png" width="210" alt="2026 — The Architect" />
     </td>
     <td align="center" valign="middle"><h2>➜</h2></td>
     <td align="center" valign="middle">
@@ -41,25 +76,48 @@
 
 </div>
 
----
+<!-- Local animated neon divider -->
+<div align="center"><img src="assets/divider.svg" width="80%" alt="" /></div>
 
 <div align="center">
 
-## Tools of the Trade
+## Installed Modules
 
-<img src="assets/gifs/js.gif"    width="64" alt="JavaScript" />&nbsp;&nbsp;
-<img src="assets/gifs/node.gif"  width="64" alt="Node.js" />&nbsp;&nbsp;
-<img src="assets/gifs/vue.gif"   width="64" alt="Vue" />&nbsp;&nbsp;
-<img src="assets/gifs/react.gif" width="64" alt="React" />&nbsp;&nbsp;
-<img src="assets/gifs/html.gif"  width="64" alt="HTML5" />&nbsp;&nbsp;
-<img src="assets/gifs/css.gif"   width="64" alt="CSS3" />
+<!-- Tech-logo stickers by devRock / Escuela DevRock (see credits at top) -->
+<img src="assets/gifs/js.gif"          width="64" alt="JavaScript" />&nbsp;&nbsp;
+<img src="assets/gifs/node.gif"        width="64" alt="Node.js" />&nbsp;&nbsp;
+<img src="assets/gifs/python.gif"      width="64" alt="Python" />&nbsp;&nbsp;
+<img src="assets/gifs/svelte.gif"      width="60" alt="Svelte" />&nbsp;&nbsp;
+<img src="assets/gifs/vue.gif"         width="64" alt="Vue" />&nbsp;&nbsp;
+<img src="assets/gifs/react.gif"       width="64" alt="React" />&nbsp;&nbsp;
+<img src="assets/gifs/html.gif"        width="64" alt="HTML5" />&nbsp;&nbsp;
+<img src="assets/gifs/css.gif"         width="64" alt="CSS3" />&nbsp;&nbsp;
+<img src="assets/gifs/visualstudio.gif" width="60" alt="Visual Studio" />&nbsp;&nbsp;
+<img src="assets/gifs/android.gif"      width="52" alt="Android" />&nbsp;&nbsp;
+<img src="assets/gifs/apple.gif"        width="60" alt="Apple" />&nbsp;&nbsp;
+<img src="assets/gifs/unity.gif"        width="76" alt="Unity" />
+
+<br/><br/>
+
+<!-- Techs without a gif — static icons from skillicons.dev, vendored locally -->
+<img src="assets/skills/skills-languages.svg" height="48" alt="TypeScript, Go, Lua, C++, C#" />
+<img src="assets/skills/skills-frameworks.svg" height="48" alt="Next.js, NestJS, Express, FastAPI, Three.js, Electron" />
+<img src="assets/skills/skills-cloud.svg" height="48" alt="Supabase, AWS, Docker" />
+<img src="assets/skills/skills-tools.svg" height="48" alt="Godot, Blender, Photoshop, Cypress" />
 
 </div>
 
----
+<!-- Local animated neon divider -->
+<div align="center"><img src="assets/divider.svg" width="80%" alt="" /></div>
 
 <div align="center">
 
 > *"Any sufficiently seasoned developer is indistinguishable from a wizard. ✨"*
 
+<!-- Pixel heart by Codecademy (see credits above) -->
+<img src="assets/gifs/heart.gif" width="44" alt="Made with a love of code" />
+
 </div>
+
+<!-- Local animated wave (bottom frame) — no external URL -->
+<img src="assets/wave-bottom.svg" width="100%" alt="" />
