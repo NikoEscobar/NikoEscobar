@@ -1,0 +1,5 @@
+# Card assets kept locally but not committed (for now)
+# Original hi-res PNG sources for the character cards
+assets/cards/*.png
+# Sharper 520px WebP set (README currently uses the lighter w260 set)
+assets/cards/w520/
