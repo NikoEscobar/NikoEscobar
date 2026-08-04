@@ -25,8 +25,8 @@
 <!--  split into category rows (languages / frameworks / cloud / tools).      -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<!-- Local animated wave (top frame) — no external URL -->
-<img src="assets/wave-top.svg" width="100%" alt="" />
+<!-- Local animated razor (top frame) — no external URL -->
+<img src="assets/prototype_3_top.svg" width="100%" alt="" />
 
 <div align="center">
 
@@ -105,5 +105,5 @@
 
 </div>
 
-<!-- Local animated wave (bottom frame) — no external URL -->
-<img src="assets/wave-bottom.svg" width="100%" alt="" />
+<!-- Local animated razor (bottom frame) — no external URL -->
+<img src="assets/prototype_3_bottom.svg" width="100%" alt="" />
