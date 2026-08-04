@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink"
-     viewBox="0 0 1920 48"
-     width="1920"
+     viewBox="0 0 1440 48"
+     width="1440"
      height="48"
      preserveAspectRatio="none">
 
@@ -172,7 +172,7 @@
 
 <!-- Rotated 180 so it frames the bottom; the rotation makes the scroll run the
      opposite way, mirroring the top frame just like the razors. -->
-<g transform="rotate(180 960 24)">
+<g transform="rotate(180 720 24)">
     <g>
         <use xlink:href="#art" href="#art"/>
         <use xlink:href="#art" href="#art" x="1920"/>
