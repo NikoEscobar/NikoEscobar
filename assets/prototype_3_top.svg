@@ -48,19 +48,19 @@
      like the razor frames (0% and 100% match so it tiles seamlessly). -->
 <linearGradient id="panelGrad" x1="0%" y1="0%" x2="100%" y2="0%">
     <stop offset="0%" stop-color="#e10203">
-        <animate attributeName="stop-color" values="#e10203;#180106;#2a2700;#0e211e;#e10203" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#e10203;#0d1117;#0d1117;#0d1117;#e10203" dur="8s" repeatCount="indefinite"/>
     </stop>
-    <stop offset="25%" stop-color="#180106">
-        <animate attributeName="stop-color" values="#180106;#2a2700;#0e211e;#e10203;#180106" dur="8s" repeatCount="indefinite"/>
+    <stop offset="25%" stop-color="#0d1117">
+        <animate attributeName="stop-color" values="#0d1117;#0d1117;#0d1117;#e10203;#0d1117" dur="8s" repeatCount="indefinite"/>
     </stop>
-    <stop offset="50%" stop-color="#2a2700">
-        <animate attributeName="stop-color" values="#2a2700;#0e211e;#e10203;#180106;#2a2700" dur="8s" repeatCount="indefinite"/>
+    <stop offset="50%" stop-color="#0d1117">
+        <animate attributeName="stop-color" values="#0d1117;#0d1117;#e10203;#0d1117;#0d1117" dur="8s" repeatCount="indefinite"/>
     </stop>
-    <stop offset="75%" stop-color="#0e211e">
-        <animate attributeName="stop-color" values="#0e211e;#e10203;#180106;#2a2700;#0e211e" dur="8s" repeatCount="indefinite"/>
+    <stop offset="75%" stop-color="#0d1117">
+        <animate attributeName="stop-color" values="#0d1117;#e10203;#0d1117;#0d1117;#0d1117" dur="8s" repeatCount="indefinite"/>
     </stop>
     <stop offset="100%" stop-color="#e10203">
-        <animate attributeName="stop-color" values="#e10203;#180106;#2a2700;#0e211e;#e10203" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#e10203;#0d1117;#0d1117;#0d1117;#e10203" dur="8s" repeatCount="indefinite"/>
     </stop>
 </linearGradient>
 
