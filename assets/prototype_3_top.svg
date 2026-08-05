@@ -48,19 +48,19 @@
      like the razor frames (0% and 100% match so it tiles seamlessly). -->
 <linearGradient id="panelGrad" x1="0%" y1="0%" x2="100%" y2="0%">
     <stop offset="0%" stop-color="#e10203">
-        <animate attributeName="stop-color" values="#e10203;#0d1117;#0d1117;#0d1117;#e10203" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#e10203;#0d111700;#0d111700;#0d111700;#e10203" dur="8s" repeatCount="indefinite"/>
     </stop>
-    <stop offset="25%" stop-color="#0d1117">
-        <animate attributeName="stop-color" values="#0d1117;#0d1117;#0d1117;#e10203;#0d1117" dur="8s" repeatCount="indefinite"/>
+    <stop offset="25%" stop-color="#0d111700">
+        <animate attributeName="stop-color" values="#0d111700;#0d111700;#0d111700;#e10203;#0d111700" dur="8s" repeatCount="indefinite"/>
     </stop>
-    <stop offset="50%" stop-color="#0d1117">
-        <animate attributeName="stop-color" values="#0d1117;#0d1117;#e10203;#0d1117;#0d1117" dur="8s" repeatCount="indefinite"/>
+    <stop offset="50%" stop-color="#0d111700">
+        <animate attributeName="stop-color" values="#0d111700;#0d111700;#e10203;#0d111700;#0d111700" dur="8s" repeatCount="indefinite"/>
     </stop>
-    <stop offset="75%" stop-color="#0d1117">
-        <animate attributeName="stop-color" values="#0d1117;#e10203;#0d1117;#0d1117;#0d1117" dur="8s" repeatCount="indefinite"/>
+    <stop offset="75%" stop-color="#0d111700">
+        <animate attributeName="stop-color" values="#0d111700;#e10203;#0d111700;#0d111700;#0d111700" dur="8s" repeatCount="indefinite"/>
     </stop>
     <stop offset="100%" stop-color="#e10203">
-        <animate attributeName="stop-color" values="#e10203;#0d1117;#0d1117;#0d1117;#e10203" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#e10203;#0d111700;#0d111700;#0d111700;#e10203" dur="8s" repeatCount="indefinite"/>
     </stop>
 </linearGradient>
 
@@ -70,10 +70,13 @@
     <!-- PANEL (baseline closes flush at y=24; fill is a cycling gradient like the razor) -->
     <path fill="url(#panelGrad)" d="M0 0 H1920 V24 H1846 L1826 40 H1734 L1718 30 H1606 L1588 44 H1460 L1444 28 H1308 L1290 40 H1180 L1162 22 H1018 L992 46 H880 L860 28 H710 L690 40 H540 L522 30 H404 L386 44 H256 L236 24 H110 L92 38 L8 24 H0 Z"/>
 
-    <!-- MAIN HUD RAIL (color cycles, glow breathes) -->
+    <!-- MAIN HUD RAIL (color cycles, glow flickers like a high-tension arc) -->
     <path fill="none" stroke="url(#cpGrad)" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" filter="url(#cpGlow)"
           d="M0 23 H90 L110 15 H228 L246 31 H396 L416 20 H520 L540 34 H682 L702 22 H856 L880 40 H988 L1016 18 H1168 L1188 30 H1288 L1310 18 H1440 L1460 34 H1592 L1612 18 H1718 L1738 28 H1822 L1844 22 H1920">
-        <animate attributeName="opacity" values="0.78;1;0.78" dur="2.6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity"
+                 values="1;0.85;1;0.45;1;0.2;0.95;1;0.6;1;0.12;1;0.8;1"
+                 keyTimes="0;0.05;0.08;0.13;0.16;0.22;0.27;0.38;0.5;0.58;0.63;0.71;0.85;1"
+                 dur="1.4s" repeatCount="indefinite" calcMode="discrete"/>
     </path>
 
     <!-- SIGNAL PULSE travelling along the rail -->
@@ -92,8 +95,12 @@
         <animate attributeName="opacity" values="0.35;0.75;0.35" dur="2.8s" repeatCount="indefinite"/>
     </path>
 
-    <!-- vertical buses -->
+    <!-- vertical buses (buzz in sync with the rail's arc) -->
     <g stroke="url(#cpGrad)" stroke-width="1">
+        <animate attributeName="opacity"
+                 values="1;0.85;1;0.45;1;0.2;0.95;1;0.6;1;0.12;1;0.8;1"
+                 keyTimes="0;0.05;0.08;0.13;0.16;0.22;0.27;0.38;0.5;0.58;0.63;0.71;0.85;1"
+                 dur="1.4s" repeatCount="indefinite" calcMode="discrete"/>
         <path d="M188 15V44"/>
         <path d="M610 31V18"/>
         <path d="M924 25V46"/>
@@ -101,9 +108,12 @@
         <path d="M1718 18V38"/>
     </g>
 
-    <!-- terminals (blink) -->
+    <!-- terminals (arc-flicker in sync with the rail) -->
     <g fill="url(#cpGrad)">
-        <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity"
+                 values="1;0.85;1;0.45;1;0.2;0.95;1;0.6;1;0.12;1;0.8;1"
+                 keyTimes="0;0.05;0.08;0.13;0.16;0.22;0.27;0.38;0.5;0.58;0.63;0.71;0.85;1"
+                 dur="1.4s" repeatCount="indefinite" calcMode="discrete"/>
         <rect x="184" y="13" width="8" height="4"/>
         <rect x="606" y="29" width="8" height="4"/>
         <rect x="920" y="23" width="8" height="4"/>
