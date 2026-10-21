@@ -1,5 +1,8 @@
 # Card assets kept locally but not committed (for now)
 # Original hi-res PNG sources for the character cards
 assets/cards/*.png
-# Sharper 520px WebP set (README currently uses the lighter w260 set)
+# Resized WebP sets (README now uses the animated GIFs in assets/gifs)
 assets/cards/w520/
+assets/cards/w260/
+# NeonForge save files (.neonforge.json) for the animated card GIFs
+neonforge/
