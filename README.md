@@ -26,7 +26,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <!-- Local animated razor (top frame) — no external URL -->
-<img src="assets/prototype_3_top.svg" width="100%" alt="" />
+<img src="assets/frames/pomodoro_top.svg" width="100%" alt="" />
 
 <div align="center">
 
@@ -106,4 +106,4 @@
 </div>
 
 <!-- Local animated razor (bottom frame) — no external URL -->
-<img src="assets/prototype_3_bottom.svg" width="100%" alt="" />
+<img src="assets/frames/pomodoro_bottom.svg" width="100%" alt="" />

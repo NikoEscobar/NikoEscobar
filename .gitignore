@@ -6,3 +6,7 @@ assets/cards/w520/
 assets/cards/w260/
 # NeonForge save files (.neonforge.json) for the animated card GIFs
 neonforge/
+# Alternate README frame variations kept locally; only the pair in use is committed
+assets/frames/*
+!assets/frames/pomodoro_top.svg
+!assets/frames/pomodoro_bottom.svg
